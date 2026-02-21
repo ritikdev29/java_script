@@ -15,6 +15,8 @@ console.log("after conver value :",marks);
 
 for (let index = 0; index < hores.length; index++) {
     console.log(hores[index]);
+    // console.log("hello");
+    
     
     
 }
