@@ -6,6 +6,11 @@ let marks_student = [85,97,44,37,76,60];
 let sum = 0;
 
 for(let val of marks_student) {
-    console.log(val);
-    
+    // console.log(val);
+    sum += val;
 }
+let avg = sum / marks_student.length;
+
+console.log(`avg marks of the class = ${avg}`);
+
+// console.log(sum); output = total array sum
