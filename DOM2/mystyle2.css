@@ -1,0 +1,9 @@
+#box {
+    height: 160px;
+    width: 100px;
+    background-color: dodgerblue;
+    /* clear: whi; */
+    color: white;
+    border: 3px solid black;
+
+}
