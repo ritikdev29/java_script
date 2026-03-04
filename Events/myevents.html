@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--multiple events in div perform this is knowns as inline events handling..-->
+<button id="btn1">btn1..</button>
+    <button onclick="console.log(`button was clicked.`); alert(`hello!`)">click me!</button>
+    <button id="btn2">click me js 2!</button>
+    <button id="btn3">click me js 3!</button>
+
+
+    <button ondblclick="console.log(`button was clicked 2x.`)">click me 2 times!</button>
+
+    <div onmouseover="console.log(`you are inside div.`);
+    ">this is a div class</div> 
+     
+    <script src="script.js"></script>
+</body>
+</html>
